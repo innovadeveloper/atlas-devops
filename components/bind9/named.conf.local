@@ -1,2 +1,2 @@
-include "/etc/bind/views/internal.conf";
-include "/etc/bind/views/external.conf";
+include "/etc/bind/views/internal_view.conf";
+include "/etc/bind/views/external_view.conf";
