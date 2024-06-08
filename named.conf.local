@@ -1,0 +1,5 @@
+zone "abexa.pe" IN {
+        type master;
+        file "/etc/bind/zones/db.abexa.pe";
+};
+
