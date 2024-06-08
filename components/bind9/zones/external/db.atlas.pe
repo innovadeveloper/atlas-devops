@@ -1,0 +1,13 @@
+$TTL    1D
+@       IN      SOA     ns1.atlas.pe. admin.atlas.pe. (
+        3               ; Serial
+        12h             ; Refresh
+        15m             ; Retry
+        3w              ; Expire
+        2h  )           ; Negative Cache TTL
+
+; ######## Registros NS ########
+
+        IN      NS      ns1.atlas.pe.
+ns1     IN      A       203.0.113.3    ; IP pública
+www     IN      A       203.0.113.3    ; IP pública
