@@ -22,9 +22,10 @@ public class View {
     }
 }
 
+// views/internal_view.conf
+// views/external_view.conf
+
 // USO DE LA CLASE View de bind9
-
-
 public class Main {
     public static void main(String[] args) {
         // Configuración interna
